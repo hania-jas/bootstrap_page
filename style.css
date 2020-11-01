@@ -1,0 +1,114 @@
+/* .jumbotron {
+  
+    padding: 2em;
+} */
+
+@font-face {
+    font-family: 'filosofia';
+    src: url(fonts/Filosofia\ SmallCaps\ Regular.otf);
+}
+
+body {
+    font-family: 'filosofia';
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+h3 {
+    padding: .5rem 1rem;
+}
+
+.cardsTop {
+    padding-top: 8em;
+    padding-bottom: 2em;
+}
+
+.cardsBottom {
+    padding-bottom: 4em;
+}
+
+.arrowLeft {
+    font-size: 23px;
+    padding-top: 12.5px;
+    padding-bottom: 9px;
+    padding-left: 4px;
+    padding-right: 6px;
+    display: inline;
+    cursor: pointer;
+}
+
+.arrowRight {
+    font-size: 23px;
+    padding-top: 12.5px;
+    padding-bottom: 9px;
+    padding-left: 6px;
+    padding-right: 4px;
+    display: inline;
+    cursor: pointer;
+}
+
+.numbers {
+    font-size: 28px;
+    display: inline;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.numsContainer {
+    height: 90px;
+}
+
+.hovering:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.active:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.bottomContainer {
+    background-color: #f8f9fa;
+}
+
+.cardBlog {
+    width: 20rem;
+}
+
+.footerDiv {
+    background: white;
+}
+
+@media (max-width: 896px) {
+    .cardBlog {
+        width: 15rem;
+    }
+}
+
+@media (max-width:767px) {
+    .cardBlog {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    .firstPost {
+        display: inline;
+    }
+    .secondPost {
+        display: inline;
+    }
+    .secondCardPost {
+        padding-top: 24px !important;
+    }
+    .firstPostBody {
+        padding-top: 0 !important;
+    }
+}
