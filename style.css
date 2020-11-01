@@ -111,4 +111,7 @@ h3 {
     .firstPostBody {
         padding-top: 0 !important;
     }
+    .about {
+        border: none !important;
+    }
 }
