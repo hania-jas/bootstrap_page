@@ -87,9 +87,9 @@ h3 {
     background: white;
 }
 
-@media (max-width: 896px) {
+@media (max-width: 995px) {
     .cardBlog {
-        width: 15rem;
+        width: 14rem;
     }
 }
 
@@ -97,7 +97,7 @@ h3 {
     .cardBlog {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 100%;
+        width: 90%;
     }
     .firstPost {
         display: inline;
@@ -113,6 +113,9 @@ h3 {
     }
     .about {
         border: none !important;
+    }
+    .bottomContainer {
+        padding: 15px !important;
     }
 }
 
